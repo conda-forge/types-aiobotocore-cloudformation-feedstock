@@ -1,5 +1,5 @@
 {% set name = "types-aiobotocore-cloudformation" %}
-{% set version = "2.8.0" %}
+{% set version = "2.9.0" %}
 {% set lib_version = version.split(".post")[0] %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 77e9e8692c4356f2423cd7c7b4c8bd6ad100bfcf4342fa9e1375dfa45f4b38af
+  sha256: cdd11ada234dcbc8051642b5e627d2dd33bb95b6ae5710df2f2cccf1adbb3722
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
