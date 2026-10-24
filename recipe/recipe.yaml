@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.9.2"
+  version: "3.10.0"
 
 package:
   name: types-aiobotocore-cloudformation
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/types-aiobotocore-cloudformation/types_aiobotocore_cloudformation-${{ version }}.tar.gz
-  sha256: 2bbca9ad4f1e34f1eaa80466f3c33edba28c8e5d05d03667900b2d59f2a3d4ae
+  sha256: 123ef17c24b85d1e56181748849a1de8c6eadca1fcdf4b72ca0eed905610f505
 
 build:
   number: 0
